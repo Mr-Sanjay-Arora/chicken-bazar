@@ -1,0 +1,126 @@
+.declarations a {
+  color: #fe5722;
+  text-decoration: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fe5722;
+  outline: 0;
+  box-shadow: none;
+}
+
+body {
+  font-family: 'Rubik';
+  /*font-size: 0.8rem;*/
+}
+
+.contact-form form {
+  padding: 40px 0;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-contact {
+  border: 1px solid #fe5722;
+  border-radius: 100px;
+  color: #fe5722;
+}
+
+.btn-contact:hover, .btn-contact:focus {
+  background: #fe5722;
+  color: #ffffff;
+  border: 1px solid #fe5722;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fe5722;
+  text-decoration: none;
+}
+
+.contact-wrapper a {
+  color: #fe5722;
+}
+
+.address {
+  margin-top: 35px;
+}
+
+.download-bar {
+  background: #222;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.play-button {
+  display: flex;
+  color: #fff;
+  border-radius: .4rem;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+}
+
+.play-button-icon {
+  font-size: 30px;
+}
+
+.play-button-text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.home-text span {
+  font-weight: 700;
+  color: #fe5722;
+  font-size: 64px;
+}
+
+.home-text {
+  margin-top: 60px;
+}
+
+.quality-marks {
+  padding: 10px 0 30px 0;
+  text-align: center;
+}
+
+.quality-marks img + img {
+  margin-left: 50px;
+}
+
+.quality-marks img {
+  width: 120px;
+}
+
+.mobile-wrapper {
+  background: url(../../assets/img/mobile-ui.png) no-repeat;
+  width: 460px;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  background-size: 300px;
+  background-position: top center;
+}
+
+.wrapper {
+  margin: 40px 0 0;
+}
+
+.map-address img {
+  width: 100%;
+  pointer-events: none;
+}
+
